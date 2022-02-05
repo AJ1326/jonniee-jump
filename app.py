@@ -180,5 +180,4 @@ def video_feed():
 # api.add_resource(GameApiHandler, '/flask/hello')
 
 if __name__ == '__main__':
-	app.run()
-    # app.run(threaded=True, host="0.0.0.0")
+    app.run(threaded=True, host="0.0.0.0", port=5003)
