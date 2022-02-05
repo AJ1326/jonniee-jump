@@ -2,5 +2,5 @@ libsm6
 libxrender1
 libfontconfig1
 libice6
-libGL.so.1
+libGLso1
 libGL1
