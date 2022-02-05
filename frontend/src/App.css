@@ -1,0 +1,54 @@
+.box_container {
+  background-color: #00000052;
+  box-shadow: 1px 3px 8px 3px #0000008a;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+  color: white;
+}
+
+.iframe_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.pad15 {
+  padding: 15px;
+}
+
+.intruction_section {
+  padding: 30px;
+  line-height: 30px;
+}
+
+.iframe_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 500px;
+  width: 500px;
+}
+
+.video_box {
+  width: 100%;
+  height: 100%;
+}
+
+.cross_icon {
+  font-size: 24px;
+  padding: 10px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.open_instruction {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
