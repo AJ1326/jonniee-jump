@@ -1,1 +1,1 @@
-web: gunicorn jonniee:app
+web: gunicorn app:app
