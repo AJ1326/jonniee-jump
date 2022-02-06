@@ -27,7 +27,7 @@ opencv-contrib-python==4.5.5.62
 opencv-python-headless==4.5.5.62
 # Pillow==8.4.0
 # protobuf==3.19.0
-# PyAutoGUI==0.9.53
+PyAutoGUI==0.9.53
 # PyGetWindow==0.0.9
 # PyMsgBox==1.0.9
 # pyobjc==8.2
