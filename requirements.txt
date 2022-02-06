@@ -183,4 +183,3 @@ PyAutoGUI==0.9.53
 # typing-extensions==3.10.0.2
 # Werkzeug==2.0.2
 # zipp==3.6.0absl-py==0.15.0
-face_recognition
