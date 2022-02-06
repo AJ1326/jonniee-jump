@@ -9,6 +9,9 @@ import imutils
 from imutils.video import VideoStream
 import pyautogui
 from flask_restful import Api, Resource, reqparse
+import os
+
+os.environ['DISPLAY'] = ':0'
 # import game
 #from flask_cors import CORS #comment this on deployment
 # from api.game import GameApiHandler
