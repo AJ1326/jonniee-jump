@@ -8,15 +8,9 @@ import cv2
 import imutils
 from imutils.video import VideoStream
 import pyautogui
-from flask_restful import Api, Resource, reqparse
-import os
-
-os.environ['DISPLAY'] = ':0'
 # import game
 #from flask_cors import CORS #comment this on deployment
 # from api.game import GameApiHandler
-
-from flask import Flask, send_from_directory
 #from flask_cors import CORS #comment this on deployment
 
 # app = Flask(__name__, static_url_path='', static_folder='frontend/build')
@@ -183,4 +177,4 @@ def video_feed():
 # api.add_resource(GameApiHandler, '/flask/hello')
 
 if __name__ == '__main__':
-    app.run(threaded=True, host="0.0.0.0", port=5003)
+    app.run()
